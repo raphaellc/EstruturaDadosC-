@@ -3,6 +3,14 @@ Allison Medina da Silva
 ###################
 
 Visual Studio @ Unisinos
-Visual Studio Professional 2015 (Vers�o 14.0.24720)
+Visual Studio Professional 2015 (Versão 14.0.24720)
 
-Sistema: Windows 10 Enterprise 2016 (Vers�o 10.0.14393)
+Sistema: Windows 10 Enterprise 2016 (Versão 10.0.14393)
+
+###################
+
+Visual Studio @ Casa
+
+Visual Studio Enterprise 2017 (Versão 15.5.7)
+
+Sistema: Windows 10 Pro (Versão 10.0.17134)

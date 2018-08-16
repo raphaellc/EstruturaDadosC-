@@ -1,9 +1,0 @@
-﻿  Source.cpp
-  Guerreiro.cpp
-  Generating Code...
-c:\users\eugênio\documents\visual studio 2015\projects\guerreiro\guerreiro\guerreiro.cpp(21): error C4716: 'Guerreiro::getStr': must return a value
-c:\users\eugênio\documents\visual studio 2015\projects\guerreiro\guerreiro\guerreiro.cpp(25): error C4716: 'Guerreiro::gethp': must return a value
-c:\users\eugênio\documents\visual studio 2015\projects\guerreiro\guerreiro\guerreiro.cpp(29): error C4716: 'Guerreiro::getDex': must return a value
-c:\users\eugênio\documents\visual studio 2015\projects\guerreiro\guerreiro\guerreiro.cpp(33): error C4716: 'Guerreiro::getDef': must return a value
-c:\users\eugênio\documents\visual studio 2015\projects\guerreiro\guerreiro\guerreiro.cpp(59): error C4716: 'Guerreiro::getPower': must return a value
-c:\users\eugênio\documents\visual studio 2015\projects\guerreiro\guerreiro\guerreiro.cpp(17): error C4716: 'Guerreiro::getNome': must return a value

@@ -1,0 +1,14 @@
+#include "Guerreiro.h"
+
+int main() {
+	Guerreiro guerreiro;
+	
+	guerreiro.andar();
+	guerreiro.pular();
+	guerreiro.esconder();
+	guerreiro.atacar(guerreiro.dano);
+	guerreiro.defender();
+
+	system("pause");
+	return 0;
+}

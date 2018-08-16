@@ -1,6 +1,6 @@
 #include "Guerreiro.h"
 
-Guerreiro::Guerreiro()
+Guerreiro::Guerreiro() // aa//
 {
     this->arma = 0;
 	this->escola_luta = 0;

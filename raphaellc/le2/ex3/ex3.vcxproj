@@ -18,6 +18,33 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Armadura.h" />
+    <ClInclude Include="Armas.h" />
+    <ClInclude Include="Atirador.h" />
+    <ClInclude Include="Carabina.h" />
+    <ClInclude Include="KitMedico.h" />
+    <ClInclude Include="MunCarabina.h" />
+    <ClInclude Include="Municao.h" />
+    <ClInclude Include="MunPistola.h" />
+    <ClInclude Include="MunRifle.h" />
+    <ClInclude Include="Pistola.h" />
+    <ClInclude Include="Rifle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Armadura.cpp" />
+    <ClCompile Include="Armas.cpp" />
+    <ClCompile Include="Atirador.cpp" />
+    <ClCompile Include="Carabina.cpp" />
+    <ClCompile Include="FPS.cpp" />
+    <ClCompile Include="KitMedico.cpp" />
+    <ClCompile Include="MunCarabina.cpp" />
+    <ClCompile Include="Municao.cpp" />
+    <ClCompile Include="MunPistola.cpp" />
+    <ClCompile Include="MunRifle.cpp" />
+    <ClCompile Include="Pistola.cpp" />
+    <ClCompile Include="Rifle.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{17B00BC6-0DA8-4455-9464-71F99A793B85}</ProjectGuid>
@@ -114,33 +141,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armadura.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armas.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Atirador.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Carabina.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\FPS.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\KitMedico.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunCarabina.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Municao.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunPistola.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunRifle.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Pistola.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Rifle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armadura.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armas.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Atirador.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Carabina.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\KitMedico.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunCarabina.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Municao.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunPistola.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunRifle.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Pistola.h" />
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Rifle.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

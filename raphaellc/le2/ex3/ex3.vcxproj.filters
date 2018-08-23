@@ -15,76 +15,76 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armadura.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armas.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Atirador.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Carabina.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\KitMedico.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunCarabina.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Municao.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunPistola.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunRifle.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Pistola.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Rifle.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\FPS.cpp">
-      <Filter>Arquivos de Recurso</Filter>
-    </ClCompile>
+    <ClInclude Include="Armadura.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Armas.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Atirador.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Carabina.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="KitMedico.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="MunCarabina.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Municao.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="MunPistola.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="MunRifle.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Pistola.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armadura.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Armas.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Atirador.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Carabina.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\KitMedico.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunCarabina.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Municao.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunPistola.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\MunRifle.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Pistola.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\OneDrive - Associação Antônio Vieira\_EstruturaDeDados_JD\_20181\E3L2_FPS\Rifle.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
+    <ClCompile Include="Armadura.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Armas.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Atirador.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Carabina.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="KitMedico.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="MunCarabina.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Municao.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="MunPistola.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="MunRifle.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Pistola.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Rifle.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

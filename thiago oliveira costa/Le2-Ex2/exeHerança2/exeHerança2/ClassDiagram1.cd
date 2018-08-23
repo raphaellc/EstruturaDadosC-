@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Guerreiro" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAAgAEAAAAACAAAAAAQAAAAAAAAAEAAAAQgAA=</HashCode>
+      <FileName>Guerreiro.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mago" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAAAAAIAAIAAAAAAQAEIAAAAIABAAACAAAAAA=</HashCode>
+      <FileName>Mago.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clerigo" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACgACGAAAAAAAAAAAAAAEAAAIgAAAAAAAAEIAAAAAA=</HashCode>
+      <FileName>clerigo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ladino" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAABAgQQAAAAAAAAABAAAAAgAAAEgAAAAAAABAAA=</HashCode>
+      <FileName>Ladino.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SarcerdoteDaLuz" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQAAAAAAAAgAAACAAIAAAAIAIABAAAAIAAAAA=</HashCode>
+      <FileName>SarcerdoteDaLuz.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SarcerdoteDaTrevas" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAkCAAQAAAAAAAAAAAAAAAAAAgAAACAAAAACAQ=</HashCode>
+      <FileName>SarcerdoteDaTrevas.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bardo" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAAAAAAEAAAAAACAAUABAAABACAAQAAAAA=</HashCode>
+      <FileName>Bardo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barbaro" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAAAgAAABAQABAAAAAAAAIAAACAAAEAgAAAA=</HashCode>
+      <FileName>Barbaro.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -6,6 +6,7 @@ class Carabina :
 {
 public:
 	Carabina();
-	~Carabina();
+	virtual ~Carabina();
+	std::string disparaTiro() override;
 };
 

@@ -10,6 +10,3 @@ Armas::Armas()
 Armas::~Armas()
 {
 }
-void Armas::disparaTiro() {
-
-}

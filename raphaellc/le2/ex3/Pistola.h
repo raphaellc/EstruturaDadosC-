@@ -5,6 +5,7 @@ class Pistola :
 {
 public:
 	Pistola();
-	~Pistola();
+	virtual ~Pistola();
+	std::string disparaTiro() override;
 };
 

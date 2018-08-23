@@ -7,5 +7,6 @@ public:
 	Rifle();
 	Rifle(Armas * arma);
 	~Rifle();
+	std::string disparaTiro() override;
 };
 

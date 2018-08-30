@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Personagem.cpp" />
+    <ClCompile Include="Guerreiro.cpp" />
+    <ClCompile Include="Mago.cpp" />
+    <ClCompile Include="Ladrao.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jogo.h" />
+    <ClInclude Include="Personagem.h" />
+    <ClInclude Include="Guerreiro.h" />
+    <ClInclude Include="Mago.h" />
+    <ClInclude Include="Ladrao.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Cpp">
+      <UniqueIdentifier>{99a39457-6f91-43ba-9b7f-56181caf25eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

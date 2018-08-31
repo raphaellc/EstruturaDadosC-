@@ -6,6 +6,8 @@ class Miseravel :
 public:
 	Miseravel();
 	~Miseravel();
+	//yuugygyu
+
 
 	void mendiga();
 };

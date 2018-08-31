@@ -6,5 +6,6 @@ class CamaroteSuperior :
 public:
 	CamaroteSuperior();
 	~CamaroteSuperior();
+	//hh
 };
 

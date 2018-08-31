@@ -1,4 +1,4 @@
-//FPS
+//FPS_controle
 #include "Atirador.h"
 #include <iostream>
 using namespace std;

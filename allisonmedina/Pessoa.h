@@ -12,7 +12,6 @@ public:
 	std::string getName();
 	int getAge();
 	void Pessoa1();
-	Rica Money();
 	char key;
 private:
 	std::string name;

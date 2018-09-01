@@ -64,9 +64,4 @@ int Pessoa::getAge()
 {		
 	return age;
 }
-Rica Pessoa::Money()
-{
-	Money().getMoney();
 
-	return Money();
-}

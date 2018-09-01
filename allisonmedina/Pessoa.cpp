@@ -17,7 +17,7 @@ void Pessoa::Pessoa1()
 	// In
 
 	std::cout << "Input your name: ";
-	std::getline (std::cin,name);  // Recebe a linha, podendo acrescentar espaçamento.
+	std::getline (std::cin,name);  // Recebe a linha, podendo acrescentar espaÃ§amento.
 	std::cout << "Your age: ";
 	std::cin >> age;
 	
@@ -27,20 +27,25 @@ void Pessoa::Pessoa1()
 	std::cout << "My name is " << name << " and I've "<< age << " old. \n" ;
 	again:
 	std::cout << "\nDo you work? ";
+	
 	if (key = _getch() == 's')
 	{
+		std::cout << "Yes.\n";
 		return works(); // Pobre
 	}
 	else if (key = _getch() == 'n')
 	{
+		std::cout << "No.\n";
 		std::cout << "\n Are'u a lot money? ";
 		if (key = _getch() == 's')
 		{
+			std::cout << "Yes.\n";
 			return purchase(); // Rico
 		}
 		else
 		{
-			return Beggar(); //Não trabalha e não tem muito dinheiro = Miserável.
+			std::cout << "No.\n";
+			return Beggar(); //NÃ£o trabalha e nÃ£o tem muito dinheiro = MiserÃ¡vel.
 		}
 	}
 	else

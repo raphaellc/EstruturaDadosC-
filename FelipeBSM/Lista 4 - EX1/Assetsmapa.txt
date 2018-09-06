@@ -1,0 +1,3 @@
+2
+sprite_sheet Mago../../assets/Imagens/Mago/Mago.png 1 4
+TileMap tilemap../../assets/Imagens/tilemap/tilemap..json 

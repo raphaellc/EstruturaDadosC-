@@ -189,6 +189,8 @@ bool ListOfPerson::remove(int index)
 		return false;
 	}
 	
+	// Precisamos de varias variaveis, para segurar o nodo antes do desejado a deletar,
+	// o nodo que vem depois, e o nodo para deletar.
 	Node * nodeToDelete = nullptr;
 	Node * previousNode = nullptr;
 	Node * nextNode = nullptr;
@@ -196,30 +198,41 @@ bool ListOfPerson::remove(int index)
 	
 	for (int i = 1; i <= this->size; i += 1)
 	{
+		// Aqui pegamos o nodo anterior ao desejado
 		if (currentNode->getIndex() == index - 1)
 		{
 			previousNode = currentNode;
 		}
+		// Aqui pegamos o nodo desejado a deletar
 		else if (currentNode->getIndex() == index)
 		{
 			nodeToDelete = currentNode;
 		}
+		// Aqui pegamos o nodo que vem depois do desejado a deletar
 		else if (currentNode->getIndex() == index + 1)
 		{
 			nextNode = currentNode;
 		}
 		currentNode = currentNode->getNextNode();
 	}
+	
+	// Ok, já temos nossos 3 nodos, o que queremos deletar, o que vem antes e depois dele.
+	// Agora o que fazemos é basicamente deletar o nodo que queremos, e reunir imendar o nodo
+	// anterior e o nodo posterior ao deletado para fechar a corrente
 	previousNode->setNextNode(nextNode);
 	nextNode->setPreviousNode(previousNode);
 	delete nodeToDelete;
+	// size diminiu, já que deletamos um nodo
 	this->size -= 1;
+
+	// Esse metodo percorre a lista de nodos arrumando seus indexes
 	this->fixIndexes();
 	return true;
 }
 
 bool ListOfPerson::remove(Person * person)
 {
+	// Este metodo é exatamente igual ao de cima.
 	Node * nodeToDelete = nullptr;
 	Node * previousNode = nullptr;
 	Node * nextNode = nullptr;
@@ -227,25 +240,35 @@ bool ListOfPerson::remove(Person * person)
 
 	for (int i = 1; i <= this->size; i += 1)
 	{
+		// Estamos checando se o nodo que o usuario quer deletar e o nodo que estamos vendo
+		// tem a pessoa com o mesmo nome e idade dentro
 		if (currentNode->getPerson()->getName() == person->getName() &&
 			currentNode->getPerson()->getAge() == person->getAge())
 		{
+			// Se sim...
+			// deletamos o nodo e imendamos as pontas dos nodos anterior e posterior ao deletado.
 			previousNode = currentNode->getPreviousNode();
 			nextNode = currentNode->getNextNode();
 			previousNode->setNextNode(nextNode);
 			nextNode->setPreviousNode(previousNode);
 			this->size -= 1;
 			this->fixIndexes();
+			// retorna true e acaba o metodo.
 			return true;
 
 		}
 		currentNode = currentNode->getNextNode();
 	}
+
+	// nao atingimos o criterio anterior, retornamos falso,
+	// para que a main saiba que esse nodo não existia
 	return false;
 }
 
 bool ListOfPerson::contains(Person * person)
 {
+	// Metodo bem simples, checamos cada nodo, se a pessoa que esta dentro desse nodo
+	// tem os mesmos parametros que a pessoa que o usuario esta pesquisando
 	Node * currentNode = this->genesisNode;
 
 	for (int i = 1; i <= this->size; i += 1)

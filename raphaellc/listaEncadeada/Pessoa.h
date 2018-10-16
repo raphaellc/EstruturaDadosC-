@@ -8,5 +8,6 @@ public:
 	~Pessoa();
 	std::string s_nome;
 	int i_idade;
+	bool operator==(const Pessoa& p);
 };
 

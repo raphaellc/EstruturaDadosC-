@@ -18,17 +18,21 @@ int main() {
 	pessoa1->s_nome = "Daciolo";
 	pessoa1->i_idade = 40;
 	lp_lista_pessoas->insereFimLista(pessoa1);
-	////adicionar esta pessoa no nó.
-	//n_no = new No;
-	//n_no->pessoa = pessoa1;
-	//n_no->proximo = nullptr;
-	//l_lista->insereFimLista(n_no);
-	////adicionar o nó na lista
-	//n_lista_pessoas = n_no;
+	
+		////adicionar esta pessoa no nó.
+		//n_no = new No;
+		//n_no->pessoa = pessoa1;
+		//n_no->proximo = nullptr;
+		//l_lista->insereFimLista(n_no);
+		////adicionar o nó na lista
+		//n_lista_pessoas = n_no;
+	
+	Pessoa * deux = new Pessoa();
+	deux->s_nome = "DEUX";
+	deux->i_idade = 0;
 
-	//Pessoa * DEUX = new Pessoa;
-	//DEUX->s_nome = "DEUX";
-	//DEUX->i_idade = 0;
+	std::cout << (pessoa1 == pessoa1) << std::endl;
+	//std::cout << pessoa1 == deux << std::endl;
 	//No * n_no1 = new No;
 	//n_no1->pessoa = DEUX;
 	//n_no1->proximo = nullptr;

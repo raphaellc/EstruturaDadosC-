@@ -11,18 +11,18 @@ ListaPessoas::~ListaPessoas()
 {
 }
 
-void ListaPessoas::percorreLista(No * lista)
+void ListaPessoas::percorreLista(No<Pessoa> * lista)
 {
 	if (lista != nullptr) {
-		std::cout << lista->pessoa->s_nome << std::endl;
+		std::cout << lista->info->s_nome << std::endl;
 		percorreLista(lista->proximo);
 	}
 }
 
 void ListaPessoas::insereFimLista(Pessoa * p)
 {
-	No * no = new No;
-	no->pessoa = p;
+	No<Pessoa> * no = new No<Pessoa>;
+	no->info = p;
 	no->proximo = nullptr;
 	Lista::insereFimLista(no);
 }

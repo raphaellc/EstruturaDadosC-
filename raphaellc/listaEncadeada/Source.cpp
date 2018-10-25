@@ -2,6 +2,8 @@
 #include "No.h"
 #include "ListaPessoas.h"
 #include "Lista.h"
+#include <vector>
+#include <queue>
 //void percorreLista(No * no) {
 //	if (no != nullptr) {
 //		std::cout << no->pessoa->s_nome << std::endl;
@@ -10,10 +12,30 @@
 //}
 int main() {
 	ListaPessoas * lp_lista_pessoas = new ListaPessoas();
+	std::vector<int> * v = new std::vector<int>();
+	std::vector<int>::iterator vec_it;
+	std::queue<int> * q_fila = new std::queue<int>();
+	v->push_back(10);
+	v->push_back(20);
+	//v->pop_back();
 	
-	
+	/*for(int n : *v)
+		std::cout << n << std::endl;*/
+
+	/*for (vec_it = v->begin() ; vec_it != v->end() ; vec_it++)
+		std::cout << *vec_it << std::endl;*/
+
+	q_fila->push(10);
+	q_fila->push(20);
+	q_fila->push(30);
+
+	std::cout << q_fila->front() << std::endl;
+	std::cout << q_fila->back() << std::endl;
+	q_fila->pop();
+	std::cout << q_fila->front() << std::endl;
+	std::cout << q_fila->back() << std::endl;
 	// Definição de uma pessoa
-	Pessoa * pessoa1;
+	/*Pessoa * pessoa1;
 	pessoa1 = new Pessoa;
 	pessoa1->s_nome = "Daciolo";
 	pessoa1->i_idade = 40;
@@ -64,7 +86,7 @@ int main() {
 		std::cout << n_lista_aux->pessoa->s_nome << std::endl;
 		n_lista_aux = n_lista_aux->proximo;
 	}*/
-
+	
 
 	system("pause");
 	return 0;

@@ -3,6 +3,8 @@
 #include <queue>
 #include "Pessoa.h"
 int main() {
+	/*** SOBRECARGA DE OPERADORES ***/
+	//Declaração de Objetos da Classe Pessoa para teste de sobrecarga de operadores.
 	Pessoa * pessoa1 = new Pessoa(10,"Raphael");
 	Pessoa * pessoa2 = new Pessoa(10,"Bernardo");
 	Pessoa * pessoa3 = new Pessoa(10,"Raphael");
@@ -13,6 +15,10 @@ int main() {
 		std::cout << "Correto: São iguais" << std::endl;
 	if(*pessoa2 < *pessoa4)
 		std::cout << "Verdadeiro: é menor" << std::endl;
+
+
+	/***STL***/
+	/*VECTOR - QUEUE (FILA) -  STACK (PILHA)*/
 	std::vector<int> * v = new std::vector<int>();
 	std::vector<int>::iterator vec_it;
 	std::queue<int> * q_fila = new std::queue<int>();
@@ -20,9 +26,11 @@ int main() {
 	v->push_back(20);
 	//v->pop_back();
 
+	
 	/*for(int n : *v)
 	std::cout << n << std::endl;*/
 
+	//Percorre o vector com iteradores
 	/*for (vec_it = v->begin() ; vec_it != v->end() ; vec_it++)
 	std::cout << *vec_it << std::endl;*/
 

@@ -6,25 +6,30 @@ class Lista
 public:
 	Lista();
 	~Lista();
-	No<T> * lista, * lista_aux;
+	No<T> * lista, *lista_aux;
 	void percorreLista(No<T> * lista);
 	void insereFimLista(No<T> * no);
 	void inserirInicioLista(No<T> * no);
-	bool removeUltimoNo();
-	bool removePrimeiroNo();
+	bool removeUltimoNo(No<T> * lst);
+	T * removePrimeiroNo();
 	void insereEm(int posicao, No<T> * no);
 	int obtemTamanhoLista();
 	bool listaVazia();//true = vazia; false = não vazia
 	void esvaziaLista();
+	bool contemNaLista(const No<T> no, No<T> * param_lista);
+	//bool removerNo(const No<T> no);
+	//int obtemPosicao(No<T> no);
+
 protected:
 	int tam;
 };
+
+
 template <class T>
 Lista<T>::Lista()
 {
 	this->tam = 0;
 }
-
 template <class T>
 Lista<T>::~Lista()
 {
@@ -33,6 +38,7 @@ template <class T>
 void Lista<T>::percorreLista(No<T> * lista)
 {
 	if (lista != nullptr) {
+		lista_aux = lista;
 		percorreLista(lista->proximo);
 	}
 }
@@ -52,6 +58,19 @@ void Lista<T>::insereFimLista(No<T> * no)
 		//lista_aux aponta para o último nó da lista
 		this->lista_aux->proximo = no; //atribui novo nó
 		this->tam++;
+	}
+}
+template<class T>
+void Lista<T>::inserirInicioLista(No<T>* no)
+{
+	if (!listaVazia()) {
+		no->proximo = lista;
+		lista = no;
+		tam++;
+	}
+	else {
+		lista = no;
+		tam++;
 	}
 }
 template <class T>
@@ -121,5 +140,55 @@ void Lista<T>::esvaziaLista()
 			this->lista = this->lista_aux;
 		}
 	}
+}
+template<class T>
+bool Lista<T>::contemNaLista(const No<T> no, No<T> * param_lista)
+{
+	//recebe o nó
+	//percorre a lista até encontrar o nó
+	//pra cada nó comparar a info que contém o tipo T, ou a informação desejada
+
+	if (param_lista != nullptr) {
+		//lista_aux = lista;
+		if (param_lista->info == no.info)
+			return true;
+		else
+			return contemNaLista(no, param_lista->proximo);
+	}
+	return false;
+
+}
+template <class T>
+bool Lista<T>::removeUltimoNo(No<T> * lst) {
+	if (lst != nullptr) {
+		if (lst->proximo != nullptr) {
+			this->lista_aux = lst;
+			lista = lst->proximo;
+			percorreLista(lista);
+
+		}
+		else {
+			//cheguei no último elemento
+			lista_aux->proximo = nullptr; //penultimo atualiza ponteiro próximo
+			delete lst; //deleta ultimo nó
+			return true;
+		}
+	}
+	return false;
+
+}
+
+template<class T>
+T * Lista<T>::removePrimeiroNo()
+{
+	T * info = nullptr;
+	if (!listaVazia()) {
+		lista_aux = lista;
+		lista = lista->proximo;
+		info = lista_aux->info;
+		delete lista_aux;
+		tam--;
+	}
+	return info;
 }
 

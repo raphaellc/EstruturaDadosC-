@@ -1,8 +1,18 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include "Pessoa.h"
 int main() {
-
+	Pessoa * pessoa1 = new Pessoa(10,"Raphael");
+	Pessoa * pessoa2 = new Pessoa(10,"Bernardo");
+	Pessoa * pessoa3 = new Pessoa(10,"Raphael");
+	Pessoa * pessoa4 = new Pessoa(11,"Bernardo");
+	if (pessoa1 == pessoa2)
+		std::cout << "Errado: São diferentes" << std::endl;
+	if (*pessoa1 == *pessoa3)
+		std::cout << "Correto: São iguais" << std::endl;
+	if(*pessoa2 < *pessoa4)
+		std::cout << "Verdadeiro: é menor" << std::endl;
 	std::vector<int> * v = new std::vector<int>();
 	std::vector<int>::iterator vec_it;
 	std::queue<int> * q_fila = new std::queue<int>();
